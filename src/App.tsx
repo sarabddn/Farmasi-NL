@@ -182,17 +182,225 @@ const CONFIG = {
         regions: "Regions"
       }
     }
+  },
+  it: {
+    countryCode: 'it',
+    name: 'Italiano',
+    flag: '🇮🇹',
+    storeUrl: "https://www.it.farmasi.com/saraabdeddine",
+    registerUrl: "https://www.it.farmasi.com/saraabdeddine/register/beautyinfluencer",
+    translations: {
+      nav: { about: "Chi siamo", products: "Prodotti", opportunity: "Opportunità", shop: "Acquista ora" },
+      hero: {
+        badge: "Serve Paesi Bassi, Germania e Belgio",
+        title1: "Farmasi Nederland",
+        title2: "& Europe",
+        title3: "Bellezza e Benessere",
+        desc: "Welkom bij Farmasi Nederland. Wij leveren de beste beautyproducten in Nederland, Duitsland en België. Sperimenta il perfetto mix di natura e scienza.",
+        shopBtn: "Scopri la collezione",
+        watchBtn: "Guarda la presentazione"
+      },
+      categories: {
+        title: "Acquista per categoria",
+        desc: "Esplora la nostra vasta gamma di prodotti progettati per esaltare la tua bellezza naturale e sostenere la tua salute.",
+        skincare: "Cura della pelle",
+        skincareDesc: "Formule avanzate per una pelle radiosa.",
+        makeup: "Trucco",
+        makeupDesc: "Cosmetici di qualità professionale per ogni look.",
+        nutrition: "Nutriplus",
+        nutritionDesc: "Benessere e vitalità dall'interno.",
+        personalCare: "Cura dei capelli",
+        personalCareDesc: "Cura professionale per capelli sani e lucenti.",
+        shopNow: "Acquista"
+      },
+      about: {
+        title: "A proposito di Farmasi",
+        p1: "Farmasi è un'azienda globale di bellezza e benessere fondata dal **Dr. Cevdet Tuna**, uno dei primi medici in Turchia. Con oltre 70 anni di esperienza nel settore cosmetico e sanitario, siamo diventati una delle aziende di vendita diretta in più rapida crescita al mondo.",
+        p2: "I nostri prodotti sono fabbricati a **Farmacity**, uno dei più grandi impianti di produzione cosmetica integrata in Europa, situato a Istanbul. Ciò ci consente di controllare ogni fase del processo, garantendo i più alti standard qualitativi.",
+        p3: "Oggi, Farmasi opera in oltre **30 paesi** e raggiunge milioni di clienti attraverso i nostri Beauty Influencer dedicati. Ci impegniamo a fornire prodotti di alta qualità, convenienti e innovativi.",
+        stats: ["Leader Globale", "Qualità Certificata", "Laboratorio Innovativo", "30+ Paesi"],
+        years: "Anni"
+      },
+      opportunity: {
+        title1: "Inizia la tua",
+        title2: "Storia di Successo",
+        desc: "Unisciti al team di Sara Abdeddine e diventa un Beauty Influencer Farmasi. Guadagna fino al 50% di commissione e goditi premi esclusivi.",
+        registerBtn: "Registrati ora",
+        videoBtn: "Guarda il video"
+      },
+      footer: {
+        desc: "La tua fonte di fiducia per i prodotti Farmasi in Europa. Bellezza e benessere di qualità, consegnati con cura.",
+        links: "Link rapidi",
+        regions: "Regioni"
+      }
+    }
+  },
+  es: {
+    countryCode: 'es',
+    name: 'Español',
+    flag: '🇪🇸',
+    storeUrl: "https://www.farmasi.es/saraabdeddine",
+    registerUrl: "https://www.farmasi.es/saraabdeddine/register/beautyinfluencer",
+    translations: {
+      nav: { about: "Sobre nosotros", products: "Productos", opportunity: "Oportunidad", shop: "Comprar ahora" },
+      hero: {
+        badge: "Sirviendo a Países Bajos, Alemania y Bélgica",
+        title1: "Farmasi Nederland",
+        title2: "& Europe",
+        title3: "Belleza y Bienestar",
+        desc: "Welkom bij Farmasi Nederland. Wij leveren de beste beautyproducten in Nederland, Duitsland en België. Experimenta la mezcla perfecta de naturaleza y ciencia.",
+        shopBtn: "Ver la colección",
+        watchBtn: "Ver presentación"
+      },
+      categories: {
+        title: "Comprar por categoría",
+        desc: "Explore nuestra amplia gama de productos diseñados para realzar su belleza natural y apoyar su salud.",
+        skincare: "Cuidado de la piel",
+        skincareDesc: "Fórmulas avanzadas para una piel radiante.",
+        makeup: "Maquillaje",
+        makeupDesc: "Cosméticos de calidad profesional para cada look.",
+        nutrition: "Nutriplus",
+        nutritionDesc: "Bienestar y vitalidad desde el interior.",
+        personalCare: "Cuidado del cabello",
+        personalCareDesc: "Cuidado profesional para un cabello sano y brillante.",
+        shopNow: "Comprar"
+      },
+      about: {
+        title: "Sobre Farmasi",
+        p1: "Farmasi es una empresa global de belleza y bienestar fundada por el **Dr. Cevdet Tuna**, uno de los primeros médicos de Turquía. Con más de 70 años de experiencia, nos hemos convertido en una de las empresas de venta directa de más rápido crecimiento.",
+        p2: "Nuestros productos se fabrican en **Farmacity**, una de las plantas de fabricación de cosméticos integradas más grandes de Europa, ubicada en Estambul.",
+        p3: "Hoy, Farmasi opera en más de **30 países** y llega a millones de clientes. Estamos comprometidos a proporcionar productos innovadores y de alta calidad.",
+        stats: ["Líder Global", "Calidad Certificada", "Laboratorio Innovador", "30+ Países"],
+        years: "Años"
+      },
+      opportunity: {
+        title1: "Comienza tu",
+        title2: "Historia de Éxito",
+        desc: "Únete al equipo de Sara Abdeddine y conviértete en Beauty Influencer de Farmasi. Gana hasta un 50% de comisión y disfruta de recompensas exclusivas.",
+        registerBtn: "Regístrate ahora",
+        videoBtn: "Ver video"
+      },
+      footer: {
+        desc: "Su fuente de confianza para los productos Farmasi en Europa. Belleza y bienestar de calidad, entregados con cuidado.",
+        links: "Enlaces rápidos",
+        regions: "Regiones"
+      }
+    }
+  },
+  fr: {
+    countryCode: 'fr',
+    name: 'Français',
+    flag: '🇫🇷',
+    storeUrl: "https://www.fr.farmasi.com/saraabdeddine",
+    registerUrl: "https://www.fr.farmasi.com/saraabdeddine/register/beautyinfluencer",
+    translations: {
+      nav: { about: "À propos", products: "Produits", opportunity: "Opportunité", shop: "Acheter" },
+      hero: {
+        badge: "Desservant les Pays-Bas, l'Allemagne et la Belgique",
+        title1: "Farmasi Nederland",
+        title2: "& Europe",
+        title3: "Beauté & Bien-être",
+        desc: "Welkom bij Farmasi Nederland. Wij leveren de beste beautyproducten in Nederland, Duitsland en België. Découvrez le mélange parfait entre nature et science.",
+        shopBtn: "Voir la collection",
+        watchBtn: "Voir la présentation"
+      },
+      categories: {
+        title: "Acheter par catégorie",
+        desc: "Découvrez notre large gamme de produits conçus per sublimer votre beauté naturelle et soutenir votre santé.",
+        skincare: "Soins de la peau",
+        skincareDesc: "Formules avancées pour une peau éclatante.",
+        makeup: "Maquillage",
+        makeupDesc: "Cosmétiques de qualité professionnelle pour chaque look.",
+        nutrition: "Nutriplus",
+        nutritionDesc: "Bien-être et vitalité de l'intérieur.",
+        personalCare: "Soins des cheveux",
+        personalCareDesc: "Soins professionnels pour des cheveux sains et brillants.",
+        shopNow: "Acheter"
+      },
+      about: {
+        title: "À propos de Farmasi",
+        p1: "Farmasi est une entreprise mondiale de beauté et de bien-être fondée par le **Dr Cevdet Tuna**, l'un des premiers médecins de Turquie. Avec plus de 70 ans d'expérience, nous sommes devenus l'une des entreprises de vente directe les plus dynamiques.",
+        p2: "Nos produits sont fabriqués à **Farmacity**, l'une des plus grandes usines de cosmétiques intégrées d'Europe, située à Istanbul.",
+        p3: "Aujourd'hui, Farmasi opère dans plus de **30 pays**. Nous nous engageons à fournir des produits innovants et de haute qualité.",
+        stats: ["Leader Mondial", "Qualité Certifiée", "Labo Innovant", "30+ Pays"],
+        years: "Ans"
+      },
+      opportunity: {
+        title1: "Commencez votre",
+        title2: "Success Story",
+        desc: "Rejoignez l'équipe de Sara Abdeddine et devenez Beauty Influencer Farmasi. Gagnez jusqu'à 50% de commission et profitez de récompenses exclusives.",
+        registerBtn: "S'inscrire maintenant",
+        videoBtn: "Voir la vidéo"
+      },
+      footer: {
+        desc: "Votre source de confiance pour les produits Farmasi en Europe. Beauté et bien-être de qualité, livrés avec soin.",
+        links: "Liens rapides",
+        regions: "Régions"
+      }
+    }
+  },
+  ro: {
+    countryCode: 'ro',
+    name: 'Română',
+    flag: '🇷🇴',
+    storeUrl: "https://www.farmasi.ro/saraabdeddine",
+    registerUrl: "https://www.farmasi.ro/saraabdeddine/register/beautyinfluencer",
+    translations: {
+      nav: { about: "Despre noi", products: "Produse", opportunity: "Oportunitate", shop: "Cumpără acum" },
+      hero: {
+        badge: "Deservind Olanda, Germania și Belgia",
+        title1: "Farmasi Nederland",
+        title2: "& Europe",
+        title3: "Frumusețe și Bunăstare",
+        desc: "Welkom bij Farmasi Nederland. Wij leveren de beste beautyproducten in Nederland, Duitsland en België. Experimentați amestecul perfect de natură și știință.",
+        shopBtn: "Vezi colecția",
+        watchBtn: "Vezi prezentarea"
+      },
+      categories: {
+        title: "Cumpără după categorie",
+        desc: "Explorează gama noastră largă de produse concepute pentru a-ți evidenția frumusețea naturală și pentru a-ți susține sănătatea.",
+        skincare: "Îngrijirea pielii",
+        skincareDesc: "Formule avansate pentru o piele radiantă.",
+        makeup: "Machiaj",
+        makeupDesc: "Cosmetice de calitate profesională pentru orice look.",
+        nutrition: "Nutriplus",
+        nutritionDesc: "Bunăstare și vitalitate din interior.",
+        personalCare: "Îngrijirea părului",
+        personalCareDesc: "Îngrijire profesională pentru un păr sănătos și strălucitor.",
+        shopNow: "Cumpără"
+      },
+      about: {
+        title: "Despre Farmasi",
+        p1: "Farmasi este o companie globală de frumusețe și bunăstare fondată de **Dr. Cevdet Tuna**, unul dintre primii medici din Turcia. Cu peste 70 de ani de experiență, am devenit una dintre companiile cu cea mai rapidă creștere.",
+        p2: "Produsele noastre sunt fabricate la **Farmacity**, una dintre cele mai mari fabrici de cosmetice integrate din Europa, situată în Istanbul.",
+        p3: "Astăzi, Farmasi operează în peste **30 de țări**. Ne angajăm să oferim produse inovatoare și de înaltă calitate.",
+        stats: ["Lider Global", "Calitate Certificată", "Laborator Inovator", "30+ Țări"],
+        years: "Ani"
+      },
+      opportunity: {
+        title1: "Începe-ți",
+        title2: "Povestea de Succes",
+        desc: "Alătură-te echipei Sarei Abdeddine și devino Beauty Influencer Farmasi. Câștigă până la 50% comision și bucură-te de recompense exclusive.",
+        registerBtn: "Înregistrează-te acum",
+        videoBtn: "Vezi video"
+      },
+      footer: {
+        desc: "Sursa ta de încredere pentru produsele Farmasi în Europa. Frumusețe și bunăstare de calitate, livrate cu grijă.",
+        links: "Link-uri rapide",
+        regions: "Regiuni"
+      }
+    }
   }
 };
 
 const DEFAULT_IMAGES = {
-  hero: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=1000",
-  about: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=1000",
-  opportunity: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800",
-  skincare: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=800",
-  makeup: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=800",
-  nutrition: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800",
-  hair: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=800"
+  hero: "input_file_3.png",
+  about: "input_file_5.png",
+  opportunity: "input_file_0.png",
+  skincare: "input_file_3.png",
+  makeup: "input_file_2.png",
+  nutrition: "input_file_1.png",
+  hair: "input_file_4.png"
 };
 
 export default function App() {
@@ -209,29 +417,9 @@ export default function App() {
   const FACEBOOK_URL = "https://www.facebook.com/sara.abdeddine";
   const EMAIL_ADDRESS = "sara.bddn@proton.me";
 
+  // AI image fetching disabled as per user request to use specific images
   React.useEffect(() => {
-    async function fetchFarmasiImages() {
-      try {
-        const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY! });
-        const response = await ai.models.generateContent({
-          model: "gemini-3-flash-preview",
-          contents: `Find high-quality direct image URLs (JPG/PNG) for a beauty brand website. Themes: 1. A hero beauty shot (glamour), 2. A luxury skincare product, 3. A professional makeup product, 4. A healthy nutrition/wellness product, 5. A professional hair care product, 6. An 'About Us' heritage shot, 7. A team/opportunity shot. Return ONLY a JSON object with keys: hero, skincare, makeup, nutrition, hair, about, opportunity. Use diverse and high-end imagery.`,
-          config: {
-            tools: [{ googleSearch: {} }],
-            responseMimeType: "application/json"
-          }
-        });
-
-        const foundImages = JSON.parse(response.text);
-        setImages(prev => ({ ...prev, ...foundImages }));
-      } catch (error) {
-        console.error("Failed to fetch Farmasi images:", error);
-      } finally {
-        setIsLoadingImages(false);
-      }
-    }
-
-    fetchFarmasiImages();
+    // fetchFarmasiImages();
   }, []);
 
   const categories = [
