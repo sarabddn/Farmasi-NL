@@ -394,13 +394,13 @@ const CONFIG = {
 };
 
 const DEFAULT_IMAGES = {
-  hero: "input_file_3.png",
-  about: "input_file_5.png",
-  opportunity: "input_file_0.png",
-  skincare: "input_file_3.png",
-  makeup: "input_file_2.png",
-  nutrition: "input_file_1.png",
-  hair: "input_file_4.png"
+  hero: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=1000",
+  about: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=1000",
+  opportunity: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800",
+  skincare: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=800",
+  makeup: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=800",
+  nutrition: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800",
+  hair: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=800"
 };
 
 export default function App() {
@@ -417,9 +417,29 @@ export default function App() {
   const FACEBOOK_URL = "https://www.facebook.com/sara.abdeddine";
   const EMAIL_ADDRESS = "sara.bddn@proton.me";
 
-  // AI image fetching disabled as per user request to use specific images
   React.useEffect(() => {
-    // fetchFarmasiImages();
+    async function fetchFarmasiImages() {
+      try {
+        const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY! });
+        const response = await ai.models.generateContent({
+          model: "gemini-3-flash-preview",
+          contents: `Find high-quality direct image URLs (JPG/PNG) for a beauty brand website. Themes: 1. A hero beauty shot (glamour), 2. A luxury skincare product, 3. A professional makeup product, 4. A healthy nutrition/wellness product, 5. A professional hair care product, 6. An 'About Us' heritage shot, 7. A team/opportunity shot. Return ONLY a JSON object with keys: hero, skincare, makeup, nutrition, hair, about, opportunity. Use diverse and high-end imagery.`,
+          config: {
+            tools: [{ googleSearch: {} }],
+            responseMimeType: "application/json"
+          }
+        });
+
+        const foundImages = JSON.parse(response.text);
+        setImages(prev => ({ ...prev, ...foundImages }));
+      } catch (error) {
+        console.error("Failed to fetch Farmasi images:", error);
+      } finally {
+        setIsLoadingImages(false);
+      }
+    }
+
+    fetchFarmasiImages();
   }, []);
 
   const categories = [
