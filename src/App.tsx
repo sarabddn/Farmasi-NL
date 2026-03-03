@@ -189,6 +189,7 @@ const CONFIG = {
     flag: '🇮🇹',
     storeUrl: "https://www.it.farmasi.com/saraabdeddine",
     registerUrl: "https://www.it.farmasi.com/saraabdeddine/register/beautyinfluencer",
+    videoUrl: "https://www.youtube.com/watch?v=-3XEz_j2U2Y",
     translations: {
       nav: { about: "Chi siamo", products: "Prodotti", opportunity: "Opportunità", shop: "Acquista ora" },
       hero: {
@@ -205,12 +206,16 @@ const CONFIG = {
         desc: "Esplora la nostra vasta gamma di prodotti progettati per esaltare la tua bellezza naturale e sostenere la tua salute.",
         skincare: "Cura della pelle",
         skincareDesc: "Formule avanzate per una pelle radiosa.",
+        skincareLink: "https://www.it.farmasi.com/sarastravl/product-list/cura-della-pelle?cid=5aecb19a-63d3-eb11-a315-005056010963",
         makeup: "Trucco",
         makeupDesc: "Cosmetici di qualità professionale per ogni look.",
+        makeupLink: "https://www.it.farmasi.com/sarastravl/product-list/trucco?cid=2bf65b5e-60d3-eb11-a315-005056010963",
         nutrition: "Nutriplus",
         nutritionDesc: "Benessere e vitalità dall'interno.",
+        nutritionLink: "https://www.it.farmasi.com/sarastravl/product-list/nutriplus?cid=87ffbc3a-8ef8-f011-8519-02f716a02c8f",
         personalCare: "Cura dei capelli",
         personalCareDesc: "Cura professionale per capelli sani e lucenti.",
+        personalCareLink: "https://www.it.farmasi.com/sarastravl/product-list/capelli?cid=020e6efe-64d3-eb11-a315-005056010963",
         shopNow: "Acquista"
       },
       about: {
@@ -241,6 +246,7 @@ const CONFIG = {
     flag: '🇪🇸',
     storeUrl: "https://www.farmasi.es/saraabdeddine",
     registerUrl: "https://www.farmasi.es/saraabdeddine/register/beautyinfluencer",
+    videoUrl: "https://youtu.be/6jrbOZ5ZDNs?si=MBFW_nKI1dlbRbB3",
     translations: {
       nav: { about: "Sobre nosotros", products: "Productos", opportunity: "Oportunidad", shop: "Comprar ahora" },
       hero: {
@@ -257,12 +263,16 @@ const CONFIG = {
         desc: "Explore nuestra amplia gama de productos diseñados para realzar su belleza natural y apoyar su salud.",
         skincare: "Cuidado de la piel",
         skincareDesc: "Fórmulas avanzadas para una piel radiante.",
+        skincareLink: "https://www.farmasi.es/saraabdeddine/product-list/cuidado-de-la-piel?cid=5aecb19a-63d3-eb11-a315-005056010963",
         makeup: "Maquillaje",
         makeupDesc: "Cosméticos de calidad profesional para cada look.",
+        makeupLink: "https://www.farmasi.es/saraabdeddine/product-list/maquillaje?cid=2bf65b5e-60d3-eb11-a315-005056010963",
         nutrition: "Nutriplus",
         nutritionDesc: "Bienestar y vitalidad desde el interior.",
+        nutritionLink: "https://www.farmasi.es/saraabdeddine/product-list/nutriplus?cid=87ffbc3a-8ef8-f011-8519-02f716a02c8f",
         personalCare: "Cuidado del cabello",
         personalCareDesc: "Cuidado profesional para un cabello sano y brillante.",
+        personalCareLink: "https://www.farmasi.es/saraabdeddine/product-list/cabello?cid=020e6efe-64d3-eb11-a315-005056010963",
         shopNow: "Comprar"
       },
       about: {
@@ -293,6 +303,7 @@ const CONFIG = {
     flag: '🇫🇷',
     storeUrl: "https://www.fr.farmasi.com/saraabdeddine",
     registerUrl: "https://www.fr.farmasi.com/saraabdeddine/register/beautyinfluencer",
+    videoUrl: "https://youtu.be/7rxuvw-aYfs?si=wCWveEuLptJHVf4U",
     translations: {
       nav: { about: "À propos", products: "Produits", opportunity: "Opportunité", shop: "Acheter" },
       hero: {
@@ -309,12 +320,16 @@ const CONFIG = {
         desc: "Découvrez notre large gamme de produits conçus per sublimer votre beauté naturelle et soutenir votre santé.",
         skincare: "Soins de la peau",
         skincareDesc: "Formules avancées pour une peau éclatante.",
+        skincareLink: "https://www.fr.farmasi.com/saraabdeddine/product-list/soin-visage?cid=5aecb19a-63d3-eb11-a315-005056010963",
         makeup: "Maquillage",
         makeupDesc: "Cosmétiques de qualité professionnelle pour chaque look.",
+        makeupLink: "https://www.fr.farmasi.com/saraabdeddine/product-list/maquillage?cid=2bf65b5e-60d3-eb11-a315-005056010963",
         nutrition: "Nutriplus",
         nutritionDesc: "Bien-être et vitalité de l'intérieur.",
+        nutritionLink: "https://www.fr.farmasi.com/saraabdeddine/product-list/nutriplus?cid=87ffbc3a-8ef8-f011-8519-02f716a02c8f",
         personalCare: "Soins des cheveux",
         personalCareDesc: "Soins professionnels pour des cheveux sains et brillants.",
+        personalCareLink: "https://www.fr.farmasi.com/saraabdeddine/product-list/cheveux?cid=020e6efe-64d3-eb11-a315-005056010963",
         shopNow: "Acheter"
       },
       about: {
@@ -345,6 +360,7 @@ const CONFIG = {
     flag: '🇷🇴',
     storeUrl: "https://www.farmasi.ro/saraabdeddine",
     registerUrl: "https://www.farmasi.ro/saraabdeddine/register/beautyinfluencer",
+    videoUrl: "https://youtu.be/gvFKFM9eMPg",
     translations: {
       nav: { about: "Despre noi", products: "Produse", opportunity: "Oportunitate", shop: "Cumpără acum" },
       hero: {
@@ -361,12 +377,16 @@ const CONFIG = {
         desc: "Explorează gama noastră largă de produse concepute pentru a-ți evidenția frumusețea naturală și pentru a-ți susține sănătatea.",
         skincare: "Îngrijirea pielii",
         skincareDesc: "Formule avansate pentru o piele radiantă.",
+        skincareLink: "https://www.farmasi.ro/saraabdeddine/product-list/%C3%AEngrijirea-pielii?cid=5aecb19a-63d3-eb11-a315-005056010963",
         makeup: "Machiaj",
         makeupDesc: "Cosmetice de calitate profesională pentru orice look.",
+        makeupLink: "https://www.farmasi.ro/saraabdeddine/product-list/machiaj?cid=2bf65b5e-60d3-eb11-a315-005056010963",
         nutrition: "Nutriplus",
         nutritionDesc: "Bunăstare și vitalitate din interior.",
+        nutritionLink: "https://www.farmasi.ro/saraabdeddine/product-list/nutri%C8%9Bie?cid=36f6d965-66d3-eb11-a315-005056010963",
         personalCare: "Îngrijirea părului",
         personalCareDesc: "Îngrijire profesională pentru un păr sănătos și strălucitor.",
+        personalCareLink: "https://www.farmasi.ro/saraabdeddine/product-list/%C3%AEngrijire-p%C4%83r?cid=020e6efe-64d3-eb11-a315-005056010963",
         shopNow: "Cumpără"
       },
       about: {
@@ -394,11 +414,11 @@ const CONFIG = {
 };
 
 const DEFAULT_IMAGES = {
-  hero: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=1000",
+  hero: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=1200",
   about: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=1000",
-  opportunity: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800",
-  skincare: "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=800",
-  makeup: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=800",
+  opportunity: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1000",
+  skincare: "https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&q=80&w=800",
+  makeup: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&q=80&w=800",
   nutrition: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800",
   hair: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=800"
 };
@@ -412,41 +432,21 @@ export default function App() {
   const t = CONFIG[lang].translations;
   const STORE_URL = CONFIG[lang].storeUrl;
   const REGISTER_URL = CONFIG[lang].registerUrl;
-  const VIDEO_URL = "https://youtu.be/gvFKFM9eMPg";
+  const VIDEO_URL = (CONFIG[lang] as any).videoUrl || "https://youtu.be/gvFKFM9eMPg";
   const INSTAGRAM_URL = "https://www.instagram.com/saranomadedigitale/";
   const FACEBOOK_URL = "https://www.facebook.com/sara.abdeddine";
   const EMAIL_ADDRESS = "sara.bddn@proton.me";
 
   React.useEffect(() => {
-    async function fetchFarmasiImages() {
-      try {
-        const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY! });
-        const response = await ai.models.generateContent({
-          model: "gemini-3-flash-preview",
-          contents: `Find high-quality direct image URLs (JPG/PNG) for a beauty brand website. Themes: 1. A hero beauty shot (glamour), 2. A luxury skincare product, 3. A professional makeup product, 4. A healthy nutrition/wellness product, 5. A professional hair care product, 6. An 'About Us' heritage shot, 7. A team/opportunity shot. Return ONLY a JSON object with keys: hero, skincare, makeup, nutrition, hair, about, opportunity. Use diverse and high-end imagery.`,
-          config: {
-            tools: [{ googleSearch: {} }],
-            responseMimeType: "application/json"
-          }
-        });
-
-        const foundImages = JSON.parse(response.text);
-        setImages(prev => ({ ...prev, ...foundImages }));
-      } catch (error) {
-        console.error("Failed to fetch Farmasi images:", error);
-      } finally {
-        setIsLoadingImages(false);
-      }
-    }
-
-    fetchFarmasiImages();
+    // AI image fetching disabled to ensure stable default images are used
+    // fetchFarmasiImages();
   }, []);
 
   const categories = [
-    { title: t.categories.skincare, image: images.skincare, description: t.categories.skincareDesc },
-    { title: t.categories.makeup, image: images.makeup, description: t.categories.makeupDesc },
-    { title: t.categories.nutrition, image: images.nutrition, description: t.categories.nutritionDesc },
-    { title: t.categories.personalCare, image: images.hair, description: t.categories.personalCareDesc },
+    { title: t.categories.skincare, image: images.skincare, description: t.categories.skincareDesc, link: (t.categories as any).skincareLink || STORE_URL },
+    { title: t.categories.makeup, image: images.makeup, description: t.categories.makeupDesc, link: (t.categories as any).makeupLink || STORE_URL },
+    { title: t.categories.nutrition, image: images.nutrition, description: t.categories.nutritionDesc, link: (t.categories as any).nutritionLink || STORE_URL },
+    { title: t.categories.personalCare, image: images.hair, description: t.categories.personalCareDesc, link: (t.categories as any).personalCareLink || STORE_URL },
   ];
 
   const countries = [
@@ -660,7 +660,7 @@ export default function App() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-rose-900/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
                     <a 
-                      href={STORE_URL}
+                      href={cat.link}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-white font-semibold flex items-center gap-2"
