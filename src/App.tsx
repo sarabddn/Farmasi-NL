@@ -37,10 +37,10 @@ const CONFIG = {
       nav: { about: "Over ons", products: "Producten", opportunity: "Kans", shop: "Shop nu" },
       hero: {
         badge: "Bedient Nederland, Duitsland & België",
-        title1: "Jouw Wereldwijde",
-        title2: "Schoonheidsbestemming",
-        title3: "met Farmasi",
-        desc: "Ervaar de perfecte mix van natuur en wetenschap. Hoogwaardige, Europese standaard schoonheids- en welzijnsproducten direct bij je thuis bezorgd.",
+        title1: "Farmasi Nederland",
+        title2: "& Europe",
+        title3: "Beauty & Wellness",
+        desc: "Welkom bij Farmasi Nederland. Wij leveren de beste beautyproducten in Nederland, Duitsland en België. Ervaar de perfecte mix van natuur en wetenschap.",
         shopBtn: "Bekijk de collectie",
         watchBtn: "Bekijk presentatie"
       },
@@ -89,10 +89,10 @@ const CONFIG = {
       nav: { about: "Über uns", products: "Produkte", opportunity: "Chance", shop: "Jetzt shoppen" },
       hero: {
         badge: "Serviert Niederlande, Deutschland & Belgien",
-        title1: "Ihr Globales",
-        title2: "Schönheitsziel",
-        title3: "mit Farmasi",
-        desc: "Erleben Sie die perfekte Mischung aus Natur und Wissenschaft. Hochwertige Schönheits- und Wellnessprodukte nach europäischem Standard direkt zu Ihnen nach Hause geliefert.",
+        title1: "Farmasi Nederland",
+        title2: "& Europe",
+        title3: "Beauty & Wellness",
+        desc: "Welkom bij Farmasi Nederland. Wij leveren de beste beautyproducten in Nederland, Duitsland en België. Erleben Sie die perfekte Mischung aus Natur und Wissenschaft.",
         shopBtn: "Kollektion ansehen",
         watchBtn: "Präsentation ansehen"
       },
@@ -141,10 +141,10 @@ const CONFIG = {
       nav: { about: "About", products: "Products", opportunity: "Opportunity", shop: "Shop Now" },
       hero: {
         badge: "Serving Nederland, Germany & Belgium",
-        title1: "Your Global",
-        title2: "Beauty Destination",
-        title3: "with Farmasi",
-        desc: "Experience the perfect blend of nature and science. High-quality, European-standard beauty and wellness products delivered directly to your door.",
+        title1: "Farmasi Nederland",
+        title2: "& Europe",
+        title3: "Beauty & Wellness",
+        desc: "Welkom bij Farmasi Nederland. Wij leveren de beste beautyproducten in Nederland, Duitsland en België. Experience the perfect blend of nature and science.",
         shopBtn: "Shop the Collection",
         watchBtn: "Watch Presentation"
       },
@@ -350,8 +350,7 @@ export default function App() {
               </div>
               <h1 className="font-serif text-5xl lg:text-7xl leading-tight mb-6">
                 {t.hero.title1} <br />
-                <span className="italic text-rose-600">{t.hero.title2}</span> <br />
-                {t.hero.title3}
+                <span className="italic text-rose-600">{t.hero.title2}</span>
               </h1>
               <p className="text-lg text-stone-600 mb-8 max-w-lg leading-relaxed">
                 {t.hero.desc}
